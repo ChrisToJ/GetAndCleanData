@@ -45,6 +45,7 @@ get_data <- function(dataFile, colSelected="numeric") {
     colnames(data) <- gsub("(\\.)+", ".", make.names(colSelected[colSelected != "NULL"]))
     # remove multiple "Body" in the names
     colnames(data) <- gsub("(Body)+", "Body", colnames(data))
+    # remove "." at the end of names
     colnames(data) <- gsub("\\.$", "", colnames(data))
     return(data)
 }
