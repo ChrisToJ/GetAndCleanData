@@ -1,6 +1,5 @@
 
-# Variables in the dataset
-==========================
+# Variables in the dataset "tidyData.txt"
 
 The original codebook describes the measured features as follows [1]:
 "The features selected for this database come from the accelerometer and 
@@ -24,7 +23,7 @@ fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain
 signals)."
 
 The dataset provided here summarises the original dataset grouped by volunteer/subject (1st column 'subject') and activity (2nd column 'activity').
-In the following columns the means and standard deviation of the following features are averaged on a per person and per activity basis:
+In the following columns the means and standard deviations of the following features are averaged on a per person and per activity basis:
 - tBodyAcc
 - tGravityAcc
 - tBodyAccJerk
@@ -49,5 +48,5 @@ The extensions '.X', '.Y', and '.Z' specify the 3-axial signals in the X, Y and 
 
 
 # References
-============
+
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
